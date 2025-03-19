@@ -23,7 +23,7 @@ export interface RouteDefinition {
   render: boolean;
 }
 
-export const BASE_URL = "/";
+export const BASE_URL = "/me/";
 
 export const routes: RouteDefinition[] = [
   {
