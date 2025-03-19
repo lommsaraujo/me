@@ -25,7 +25,7 @@ export default function Inicio() {
           fontWeight: "bold",
           fontSize: "7rem",
           color: "white",
-          pt: isDesktop ? 44 : 15,
+          pt: isDesktop ? 38 : 15,
           lineHeight: 1,
           position: "relative",
         }}
@@ -140,7 +140,6 @@ export default function Inicio() {
           target="_blank"
           href="https://arquivos-elencodigital.s3.sa-east-1.amazonaws.com/elenco/178941/qPPUYsSqEsTUAdeVkMX3Pl2LjAQdrxnRXHKdTWVc.pdf"
           sx={{
-            color: theme.palette.font.main,
             minWidth: 0,
             fontSize: 20,
             fontWeight: "normal",

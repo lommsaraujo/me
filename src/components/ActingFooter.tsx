@@ -15,7 +15,6 @@ export default function ActingFooter() {
         target="_blank"
         href="https://pdfhost.io/v/DnO~rawyK_Jasmin_Cortez_Acting_CV"
         sx={{
-          color: theme.palette.font.main,
           minWidth: 0,
           fontSize: 15,
           fontWeight: "normal",
@@ -28,7 +27,6 @@ export default function ActingFooter() {
         target="_blank"
         href="https://app.spotlight.com/1719-1271-5115"
         sx={{
-          color: theme.palette.font.main,
           minWidth: 0,
           fontSize: 15,
           fontWeight: "normal",
@@ -41,7 +39,6 @@ export default function ActingFooter() {
         target="_blank"
         href="https://elencodigital.com.br/JasminCortez"
         sx={{
-          color: theme.palette.font.main,
           minWidth: 0,
           fontSize: 15,
           fontWeight: "normal",

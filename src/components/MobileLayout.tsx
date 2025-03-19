@@ -89,7 +89,7 @@ export default function MobileLayout() {
             aria-label="open drawer"
             onClick={handleDrawerToggle}
             sx={{
-              backgroundColor: "#000000",
+              backgroundColor: "#b388eb",
               color: theme.palette.primary.main,
               boxShadow: 2,
             }}

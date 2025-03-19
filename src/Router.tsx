@@ -7,7 +7,7 @@ import {
 import NotFound from "./NotFound";
 import Inicio from "./Inicio";
 import Contato from "./Contato";
-import Acting from "./Acting";
+import Atriz from "./Atriz";
 import App from "./App";
 import theme from "./theme";
 import { Button, ListItem, Stack } from "@mui/material";
@@ -41,10 +41,10 @@ export const routes: RouteDefinition[] = [
     render: true,
   },
   {
-    label: "Acting",
-    aria: "Navigate to Acting",
-    to: "acting",
-    element: <Acting />,
+    label: "Atriz",
+    aria: "Navigate to Atriz",
+    to: "atriz",
+    element: <Atriz />,
     render: true,
   },
   {

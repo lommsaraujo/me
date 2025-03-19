@@ -5,21 +5,19 @@ export default function Other() {
   return (
     <Stack spacing={15}>
       <Project
-        name={"Bet375 | Never Ordinary: Breaking News"}
-        description={"Commercial"}
-        info={"Directed by Jack Driscoll, 2024."}
-        img={"./credits/bet.png"}
+        name={"Snapchat - The Bad Cat Company"}
+        description={"Publicidade"}
+        info={"Snapchat, 2021."}
+        img={"./credits/snapchat.png"}
         side={"r"}
       />{" "}
       <Project
-        name={"Shooting My Life's Script"}
-        description={
-          "Feature Film. Jasmin's single Volta e Meia is in the soudtrack of this movie."
-        }
-        info={"Directed by Pedro Antônio, 2022."}
-        img={"./credits/fmf.png"}
+        name={"Emissora RIT"}
+        description={"Gravações de simulações para a programação."}
+        info={"Direção: Júlio Costa, 2009"}
+        img={"./credits/snapchat.png"}
         side={"l"}
-      />
+      />{" "}
     </Stack>
   );
 }

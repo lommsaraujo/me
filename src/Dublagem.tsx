@@ -23,8 +23,8 @@ export default function Dublagem() {
         }}
       >
         <Avatar
-          alt="Remy Sharp"
-          src="https://arquivos-elencodigital.s3.sa-east-1.amazonaws.com/imagens/elenco/4d0de084-09ed-4e3d-9089-24e16dcba5a5.jpg"
+          alt="Lomms"
+          src="https://arquivos-elencodigital.s3.sa-east-1.amazonaws.com/imagens/elenco/0386a87b-73ca-475b-b640-77bf7c07e99f.jpg"
           sx={{ width: 120, height: 120 }}
         />
         <Typography
@@ -42,7 +42,7 @@ export default function Dublagem() {
         sx={{ fontSize: "1.25rem", mb: 5, mt: -5, fontWeight: "bold" }}
       >
         <br />
-        {"Warm, professional, clear voice."}
+        {"Voz clara, suave e divertida."}
       </Typography>
       <Typography
         textAlign={"justify"}
@@ -51,7 +51,7 @@ export default function Dublagem() {
         {"Português nativo, inglês fluente, espanhol e francês básicos."}
         <br />
         {
-          "Experienced in many areas of voiceover such as; video games, action play, commercial, corporate, e-learning and radio dramas… to name a few."
+          "Formada no curso avançado de dublagem no Instituto Artístico Brasileiro, possui habilidade com animações, comédia, imitações - entre outros."
         }
       </Typography>
       <Stack

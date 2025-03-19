@@ -7,10 +7,10 @@ const tools = createTheme();
 const primary = tools.palette.augmentColor({ color: { main: "#FFFFFF" } });
 // light purple
 const secondary = tools.palette.augmentColor({ color: { main: "#E4C1F9" } });
-// baby blue
-const highlight = tools.palette.augmentColor({ color: { main: "#A9DEF9" } });
-// black
-const font = tools.palette.augmentColor({ color: { main: "#000000" } });
+// light blue
+const highlight = tools.palette.augmentColor({ color: { main: "#5aa9e6" } });
+// dark purple
+const font = tools.palette.augmentColor({ color: { main: "#b388eb" } });
 
 // A custom theme for this app
 const theme = createTheme({
@@ -38,6 +38,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           fontFamily: "League Spartan",
+          color: "#b388eb",
         },
       },
     },
@@ -54,10 +55,9 @@ const theme = createTheme({
           fontFamily: "League Spartan",
           textTransform: "initial",
           fontWeight: "bold",
-          color: "black",
+          color: "#5aa9e6",
           "&:hover": {
             color: "#FF99C8",
-            backgroundColor: "#f2ebfb",
           },
         },
       },
